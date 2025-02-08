@@ -24,6 +24,8 @@
 		"vite": "^5.4.11"
 	},
 	"dependencies": {
-		"@xyflow/svelte": "^0.1.26"
+		"@tailwindcss/vite": "^4.0.4",
+		"@xyflow/svelte": "^0.1.26",
+		"tailwindcss": "^4.0.4"
 	}
 }

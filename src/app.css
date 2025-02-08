@@ -1,0 +1,27 @@
+@import 'tailwindcss';
+
+/* Light Theme - Minimal, Neutral */
+--light-bg: oklch(0.98 0.005 250);       /* Near-white */
+--light-primary: oklch(0.55 0.15 250);   /* Balanced blue */
+--light-secondary: oklch(0.92 0.02 250); /* Soft light blue */
+--light-surface: oklch(1 0 0);           /* Pure white */
+--light-text: oklch(0.18 0.02 250);      /* Dark gray-blue for readability */
+
+/* Dark Theme - VS Code / Rust Book Inspired */
+--dark-bg: oklch(0.15 0.02 270);         /* Dark slate blue (not pure black) */
+--dark-primary: oklch(0.75 0.13 260);    /* Softer blue */
+--dark-secondary: oklch(0.4 0.07 250);   /* Muted cool blue */
+--dark-surface: oklch(0.18 0.02 250);    /* Slightly lighter than bg */
+--dark-text: oklch(0.92 0.005 250);      /* Near-white with blue tint */
+
+:root {
+	--transition-duration: 200ms;
+}
+
+html {
+	transition: all var(--transition-duration) ease-in-out;
+}
+
+html.dark {
+	color-scheme: dark;
+}

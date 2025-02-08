@@ -1,0 +1,183 @@
+{
+    "nodes": [
+        {
+        "id": "computer_science",
+        "type": "group",  
+        "position": { "x": 300, "y": 100 },
+        "data": { "label": "Computer Science" },
+        "width": 200,
+        "height": 50
+        },
+        {
+        "id": "algorithms",
+        "type": "default", 
+        "position": { "x": 100, "y": 250 },
+        "data": { "label": "Algorithms" },
+        "width": 150,
+        "height": 50,
+        "parentId": "computer_science"
+        },
+        {
+        "id": "data_structures",
+        "type": "default",
+        "position": { "x": 300, "y": 250 },
+        "data": { "label": "Data Structures" },
+        "width": 150,
+        "height": 50,
+        "parentId": "computer_science"
+        },
+        {
+        "id": "programming_languages",
+        "type": "default",
+        "position": { "x": 500, "y": 250 },
+        "data": { "label": "Programming Languages" },
+        "width": 150,
+        "height": 50,
+        "parentId": "computer_science"
+        },
+        {
+        "id": "artificial_intelligence",
+        "type": "default",
+        "position": { "x": 100, "y": 400 },
+        "data": { "label": "Artificial Intelligence" },
+        "width": 150,
+        "height": 50,
+        "parentId": "computer_science"
+        },
+        {
+        "id": "machine_learning",
+        "type": "default",
+        "position": { "x": 100, "y": 550 },
+        "data": { "label": "Machine Learning" },
+        "width": 150,
+        "height": 50,
+        "parentId": "artificial_intelligence"
+        },
+        {
+        "id": "deep_learning",
+        "type": "default",
+        "position": { "x": 250, "y": 550 },
+        "data": { "label": "Deep Learning" },
+        "width": 150,
+        "height": 50,
+        "parentId": "artificial_intelligence"
+        },
+        {
+        "id": "computer_networks",
+        "type": "default",
+        "position": { "x": 300, "y": 400 },
+        "data": { "label": "Computer Networks" },
+        "width": 150,
+        "height": 50,
+        "parentId": "computer_science"
+        },
+        {
+        "id": "databases",
+        "type": "default",
+        "position": { "x": 500, "y": 400 },
+        "data": { "label": "Databases" },
+        "width": 150,
+        "height": 50,
+        "parentId": "computer_science"
+        },
+        {
+        "id": "software_engineering",
+        "type": "default",
+        "position": { "x": 700, "y": 250 },
+        "data": { "label": "Software Engineering" },
+        "width": 150,
+        "height": 50,
+        "parentId": "computer_science"
+        },
+        {
+        "id": "web_development",
+        "type": "default",
+        "position": { "x": 700, "y": 400 },
+        "data": { "label": "Web Development" },
+        "width": 150,
+        "height": 50,
+        "parentId": "software_engineering"
+        },
+        {
+        "id": "cybersecurity",
+        "type": "default",
+        "position": { "x": 700, "y": 550 },
+        "data": { "label": "Cybersecurity" },
+        "width": 150,
+        "height": 50,
+        "parentId": "computer_science"
+        },
+        {
+        "id": "cloud_computing",
+        "type": "default",
+        "position": { "x": 500, "y": 550 },
+        "data": { "label": "Cloud Computing" },
+        "width": 150,
+        "height": 50,
+        "parentId": "computer_science"
+        }
+    
+    ],
+    "edges": [
+      {
+        "id": "edge-1",
+        "source": "computer_science",
+        "target": "algorithms"
+      },
+      {
+        "id": "edge-2",
+        "source": "computer_science",
+        "target": "data_structures"
+      },
+      {
+        "id": "edge-3",
+        "source": "computer_science",
+        "target": "programming_languages"
+      },
+      {
+        "id": "edge-4",
+        "source": "computer_science",
+        "target": "artificial_intelligence"
+      },
+      {
+        "id": "edge-5",
+        "source": "artificial_intelligence",
+        "target": "machine_learning"
+      },
+      {
+        "id": "edge-6",
+        "source": "artificial_intelligence",
+        "target": "deep_learning"
+      },
+      {
+        "id": "edge-7",
+        "source": "computer_science",
+        "target": "computer_networks"
+      },
+      {
+        "id": "edge-8",
+        "source": "computer_science",
+        "target": "databases"
+      },
+      {
+        "id": "edge-9",
+        "source": "computer_science",
+        "target": "software_engineering"
+      },
+      {
+        "id": "edge-10",
+        "source": "software_engineering",
+        "target": "web_development"
+      },
+          {
+        "id": "edge-11",
+        "source": "computer_science",
+        "target": "cybersecurity"
+      },
+          {
+        "id": "edge-12",
+        "source": "computer_science",
+        "target": "cloud_computing"
+      }
+    ]
+  }

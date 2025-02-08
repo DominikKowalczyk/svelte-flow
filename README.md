@@ -134,3 +134,8 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 Happy coding!
 
 
+## Additional depencdencies
+
+```bash
+npm install tailwindcss @tailwindcss/vite
+```
